@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin:ital,wght@0,400..700;1,400..700&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Quicksand:wght@300..700&display=swap');
+
+
+.myH1 {
+    color: rgb(248, 207, 180);
+    text-align: center;
+    font-size: 3sem;
+    margin-top: 20px;
+}
+
+body{
+    background-color: rgb(232, 81, 81);
+    font-family: Quicksand, sans-serif;
+}
+
+.myP {
+    color: rgb(255, 195, 188);
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.myImg {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;,
+    margin-top: 20px;
+}
+
+.mylist143 {
+    color: rgb(247, 247, 154);
+    font-size: 1.5em; 
+    text-align: center;
+    list-style-position: inside;
+
+}
+
+#animatedText {
+    opacity: 0;
+    transition: opacity 2s;
+}
+.mylist142 {
+    color: rgb(241, 157, 201);
+    font-size: 1.8em; 
+    text-align: center;
+    list-style-position: inside;
+
+}
+.myH3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(255, 195, 188);
+    padding: 0px;
+    margin: 0px; hidden;
+    overflow: hidden;
+}
+
+.navbar a {
+    color:rgb(141, 105, 62);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(232, 81, 81);
+    color: white;
+}
+
+.navbar li {
+    float: left;
+}
+.myImg2 {
+display: inline-block;
+margin-right: 10px;
+width: 200px;
+height: auto;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+width: 400px;
+height: 300px;
+display: block;
+margin-left: auto;
+margin-right: auto;,
+margin-top: 20px;
+transition: transform 0.3s, box-shadow 0.3s;
+cursor: pointer;
+float: left;
+margin: 10px;
+}
+
+.myImg2:hover {
+    transform: scale(1.05) rotate(-2deg);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.myBUttons {
+    background-color: rgb(255, 195, 188);
+    color: rgb(141, 105, 62);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
